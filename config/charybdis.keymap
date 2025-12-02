@@ -228,7 +228,7 @@
 &kp TAB       &kp Q           &kp W         &kp E            &kp R              &kp T              &kp Y                  &kp U              &kp I            &kp O               &kp P               &kp BSLH
 &kp CAPSLOCK  &hm LEFT_ALT A  &hms LSHFT S  &hm LEFT_GUI D   &hm LCTRL F        &kp G              &kp H                  &hm LCTRL J        &hm RIGHT_GUI K  &hms RIGHT_SHIFT L  &hm RIGHT_ALT SEMI  &kp SQT
 &kp GRAVE     &kp LSHFT       &kp X         &kp C            &kp V              &lt_alpha 3 B      &kp N                  &kp M              &kp COMMA        &kp DOT             &kp FSLH            &kp BACKSLASH
-                                            &lt_thumb 1 TAB  &lt_thumb 2 ENTER  &lt_thumb 5 ESC    &lt_thumb 6 BACKSPACE  &lt_thumb 4 SPACE
+                                            &lt_alpha 1 TAB  &lt_alpha 2 ENTER  &lt_thumb 5 ESC    &lt_thumb 6 BACKSPACE  &lt_thumb 4 SPACE
                                                              &none              &none              &lt_thumb 5 DELETE
             >;
         };
