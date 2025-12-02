@@ -79,13 +79,13 @@
 
         left_win {
             bindings = <&kp LG(GRAVE)>;
-            key-positions = <39 38>;
+            key-positions = <25 26>;
             require-prior-idle-ms = <100>;
         };
 
         right_win {
             bindings = <&kp LG(LS(GRAVE))>;
-            key-positions = <39 40>;
+            key-positions = <34 33>;
             require-prior-idle-ms = <100>;
         };
 
@@ -134,6 +134,12 @@
         righthalf {
             bindings = <&kp LA(LG(RIGHT))>;
             key-positions = <16 15>;
+            require-prior-idle-ms = <100>;
+        };
+
+        full_win {
+            bindings = <&kp LA(LG(F))>;
+            key-positions = <16 15 14>;
             require-prior-idle-ms = <100>;
         };
     };
