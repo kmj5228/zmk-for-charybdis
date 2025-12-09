@@ -142,6 +142,11 @@
             key-positions = <16 15 14>;
             require-prior-idle-ms = <100>;
         };
+
+        trans_lang {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <49 52>;
+        };
     };
 
     behaviors {
@@ -291,12 +296,12 @@
 
         SYM {
             bindings = <
-&trans  &trans           &trans       &trans         &trans        &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans           &kp CARET    &kp AMPERSAND  &kp ASTERISK  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND      &kp DOLLAR    &kp PERCENT    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp MINUS        &kp PLUS     &kp EQUAL      &trans        &trans         &trans  &trans  &trans  &trans  &trans  &trans
-                                      &trans         &trans        &trans         &trans  &trans
-                                                     &trans        &trans         &trans
+&trans  &trans           &trans       &trans         &trans          &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans           &kp CARET    &kp AMPERSAND  &kp ASTERISK    &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp POUND      &kp DOLLAR      &kp PERCENT    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp MINUS        &kp PLUS     &kp EQUAL      &kp UNDERSCORE  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+                                      &trans         &trans          &trans         &trans  &trans
+                                                     &trans          &trans         &trans
             >;
         };
     };
