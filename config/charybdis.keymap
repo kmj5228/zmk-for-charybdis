@@ -258,7 +258,7 @@
 &kp CAPSLOCK  &hm LEFT_ALT A  &hms LSHFT S  &hmo LEFT_GUI D  &hmc LCTRL F       &kp G              &kp H                  &hmc LCTRL J       &hmo RIGHT_GUI K  &hms RIGHT_SHIFT L  &hm RIGHT_ALT SEMI  &kp SQT
 &kp GRAVE     &kp Z           &kp X         &kp C            &kp V              &lt_alpha 3 B      &kp N                  &kp M              &kp COMMA         &kp DOT             &kp FSLH            &kp BACKSLASH
                                             &lt_alpha 1 TAB  &lt_alpha 2 ENTER  &lt_thumb 5 ESC    &lt_thumb 6 BACKSPACE  &lt_thumb 4 SPACE
-                                                             &none              &none              &lt_thumb 5 DELETE
+                                                             &none              &none              &lt_thumb 2 DELETE
             >;
         };
 
@@ -279,8 +279,8 @@
 &trans  &trans   &trans     &trans     &trans     &trans    &trans          &trans          &trans        &trans           &trans  &trans
 &trans  &trans   &trans     &trans     &trans     &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &kp F15  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans    &trans          &trans          &trans        &trans           &trans  &trans
-                            &trans     &trans     &trans    &mkp RCLK       &mkp LCLK
-                                       &trans     &trans    &mkp MCLK
+                            &trans     &trans     &trans    &trans          &trans
+                                       &trans     &trans    &trans
             >;
         };
 
@@ -308,12 +308,12 @@
 
         FUNC {
             bindings = <
-&trans  &trans  &trans  &trans  &trans     &trans    &trans         &trans     &trans   &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans    &kp F5         &kp F6     &kp F7   &kp F8  &kp F9  &trans
-&trans  &trans  &trans  &trans  &trans     &trans    &kp F10        &kp F1     &kp F2   &kp F3  &kp F4  &trans
-&trans  &trans  &trans  &trans  &trans     &trans    &trans         &kp F10    &kp F11  &trans  &trans  &trans
-                        &trans  &kp ENTER  &trans    &kp BACKSPACE  &kp SPACE
-                                &trans     &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans   &trans   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp F5   &kp F6   &kp F7   &kp F8  &kp F9  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp F10  &kp F1   &kp F2   &kp F3  &kp F4  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp F10  &kp F11  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans   &trans
+                                &trans  &trans    &trans
             >;
         };
 
