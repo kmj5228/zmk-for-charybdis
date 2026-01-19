@@ -232,7 +232,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <130>;
             flavor = "tap-preferred";
-            hold-trigger-key-positions = <52 39 16 27 33 37>;
+            hold-trigger-key-positions = <52 39 16 27 33 37 14>;
         };
 
         hmo: homerow_command {
