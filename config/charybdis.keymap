@@ -258,7 +258,7 @@
 &kp CAPSLOCK  &hm LEFT_ALT A  &hms LSHFT S  &hmo LEFT_GUI D  &hmc LCTRL F       &kp G              &kp H                  &hmc LCTRL J       &hmo RIGHT_GUI K  &hms RIGHT_SHIFT L  &hm RIGHT_ALT SEMI  &kp SQT
 &kp GRAVE     &kp Z           &kp X         &kp C            &kp V              &lt_alpha 3 B      &kp N                  &kp M              &kp COMMA         &kp DOT             &kp FSLH            &kp BACKSLASH
                                             &lt_alpha 1 TAB  &lt_alpha 2 ENTER  &lt_thumb 5 ESC    &lt_thumb 6 BACKSPACE  &lt_thumb 4 SPACE
-                                                             &none              &none              &lt_thumb 2 DELETE
+                                                             &none              &kp LC(B)          &lt_thumb 2 DELETE
             >;
         };
 
