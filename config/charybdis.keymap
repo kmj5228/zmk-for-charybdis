@@ -10,6 +10,8 @@
     quick-tap-ms = <150>;
 };
 
+&tog { toggle-mode = "flip"; };
+
 / {
     macros {
         To1_macro: To1_macro {
@@ -258,7 +260,7 @@
 &kp CAPSLOCK  &hm LEFT_ALT A  &hms LSHFT S  &hmo LEFT_GUI D  &hmc LCTRL F       &kp G              &kp H                  &hmc LCTRL J       &hmo RIGHT_GUI K  &hms RIGHT_SHIFT L  &hm RIGHT_ALT SEMI  &kp SQT
 &kp GRAVE     &kp Z           &kp X         &kp C            &kp V              &lt_alpha 3 B      &kp N                  &kp M              &kp COMMA         &kp DOT             &kp FSLH            &kp BACKSLASH
                                             &lt_alpha 1 TAB  &lt_alpha 2 ENTER  &lt_thumb 5 ESC    &lt_thumb 6 BACKSPACE  &lt_thumb 4 SPACE
-                                                             &none              &kp LC(B)          &lt_thumb 2 DELETE
+                                                             &none              &kp LC(B)          &tog 2
             >;
         };
 
@@ -275,11 +277,11 @@
 
         snipe-layers {
             bindings = <
-&trans  &trans   &trans     &trans     &trans     &trans    &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans   &trans     &trans     &trans     &trans    &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans   &trans     &trans     &trans     &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp F15  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans    &trans          &trans          &trans        &trans           &trans  &trans
-                            &trans     &trans     &trans    &trans          &trans
+&trans  &trans   &trans     &trans     &trans     &trans    &trans  &trans                &trans                 &trans     &trans  &trans
+&trans  &trans   &trans     &trans     &trans     &trans    &trans  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans     &trans  &trans
+&trans  &trans   &trans     &trans     &trans     &trans    &trans  &mkp LCLK             &mkp RCLK              &mkp MCLK  &trans  &trans
+&trans  &kp F15  &mkp MCLK  &mkp RCLK  &mkp LCLK  &trans    &trans  &trans                &trans                 &trans     &trans  &trans
+                            &trans     &trans     &trans    &trans  &trans
                                        &trans     &trans    &trans
             >;
         };
