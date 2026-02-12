@@ -256,7 +256,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <130>;
             flavor = "tap-preferred";
-            hold-trigger-key-positions = <37 38 39 40 25 14 16 33 31 32 30 17 41 28>;
+            hold-trigger-key-positions = <37 38 39 40 25 14 16 33 31 32 30 17 41 28 22>;
         };
     };
 
