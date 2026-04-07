@@ -244,7 +244,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <130>;
             flavor = "tap-preferred";
-            hold-trigger-key-positions = <52 39 16 27 33 37 14 41 20 21 25 28>;
+            hold-trigger-key-positions = <52 39 16 27 33 37 14 41 20 21 25 28 13>;
         };
 
         hmo: homerow_command {
